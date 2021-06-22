@@ -4,7 +4,7 @@ To utilize this playbook, peform the following steps:
 
 1) On the Takeoff Node for the Ring (AG1 - see image below), Copy the ztp script: `ztp_script.py` to the following folder on the router harddisk: `/misc/disk1/ztp/`
 
-    ![](images/Slide1.jpeg)  
+    ![](/images/Slide1.jpeg)  
     
 2) Copy the ondemand script: `shifting_ztp_server.py` that will be used to setup the dhcp + http server on each node to the hardisk location:  `/misc/disk1`
 
