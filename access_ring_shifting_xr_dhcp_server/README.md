@@ -107,7 +107,7 @@ To utilize this playbook, peform the following steps:
     ```
     
  5) At this stage, the takeoff node is ready to serve the downstream nodes performing ZTP. 
- 6) Since this is a "shifting ZTP server" technique. When the CSS1 node performs ZTP and is available on the /30 IP address, the operator would gain remote access and configure a routable IP address on the upstream node instead of the /30 IP so it may be reused.
+ 6) Since this is a "shifting ZTP server" technique, when the CSS1 node performs ZTP and is available on the /30 IP address, the operator would gain remote access and configure a routable IP address on the upstream node instead of the /30 IP so it may be reused.
  
  7) Lastly, the ZTP script: `ztp_script.py` is designed to set up everything on the CSS1 node post ZTP identical to the node AG1. Therefore, to bootstrap node CSS2, simply run the same steps as above to start the DHCP + HTTP server on CSS1 making it the new takeoff node, before moving on to CSS2 and so on ...
     
